@@ -61,18 +61,12 @@ const plugins = [
 
 module.exports = {
   projectConfig: {
-    // redis_url: REDIS_URL,
-    // For more production-like environment install PostgresQL
-    // database_url: DATABASE_URL,
-    // database_type: "postgres",
     database_database: "./medusa-db.sql",
     database_type: "postgres",
-    database_url:
-      "postgresql://postgres:qvVDaJk13IlAB2zvxX43@containers-us-west-149.railway.app:7763/railway",
+    database_url: DATABASE_URL,
     store_cors: STORE_CORS,
     admin_cors: ADMIN_CORS,
-    redis_url:
-      "redis://default:zY4FYLulRWSFbxTZt8Pl@containers-us-west-153.railway.app:6600",
+    redis_url: REDIS_URL,
   },
   plugins,
 };
