@@ -62,7 +62,8 @@ const plugins = [
 module.exports = {
   projectConfig: {
     database_database: "./medusa-db.sql",
-    database_type: "sqlite",
+    database_type: "postgres",
+    database_extra: { ssl: { rejectUnauthorized: false } },
     store_cors: STORE_CORS,
     admin_cors: ADMIN_CORS,
     redis_url: REDIS_URL,
