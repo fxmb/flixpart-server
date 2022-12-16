@@ -4,13 +4,13 @@
   },
   "users": [
     {
-      "email": "admin@medusa-test.com",
+      "email": "admin3@medusa-test.com",
       "password": "supersecret"
     }
   ],
   "regions": [
     {
-      "id": "test-region-eu",
+      "id": "test-region-eu123",
       "name": "EU",
       "currency_code": "eur",
       "tax_rate": 0,
@@ -19,7 +19,7 @@
       "countries": ["gb", "de", "dk", "se", "fr", "es", "it"]
     },
     {
-      "id": "test-region-na",
+      "id": "test-region-na123",
       "name": "NA",
       "currency_code": "usd",
       "tax_rate": 0,
@@ -31,7 +31,7 @@
   "shipping_options": [
     {
       "name": "PostFake Standard",
-      "region_id": "test-region-eu",
+      "region_id": "test-region-eu123",
       "provider_id": "manual",
       "data": {
         "id": "manual-fulfillment"
@@ -41,7 +41,7 @@
     },
     {
       "name": "PostFake Express",
-      "region_id": "test-region-eu",
+      "region_id": "test-region-eu123",
       "provider_id": "manual",
       "data": {
         "id": "manual-fulfillment"
@@ -51,7 +51,7 @@
     },
     {
       "name": "PostFake Return",
-      "region_id": "test-region-eu",
+      "region_id": "test-region-eu123",
       "provider_id": "manual",
       "data": {
         "id": "manual-fulfillment"
@@ -62,7 +62,7 @@
     },
     {
       "name": "I want to return it myself",
-      "region_id": "test-region-eu",
+      "region_id": "test-region-eu123",
       "provider_id": "manual",
       "data": {
         "id": "manual-fulfillment"
@@ -73,7 +73,7 @@
     },
     {
       "name": "FakeEx Standard",
-      "region_id": "test-region-na",
+      "region_id": "test-region-na123",
       "provider_id": "manual",
       "data": {
         "id": "manual-fulfillment"
@@ -83,7 +83,7 @@
     },
     {
       "name": "FakeEx Express",
-      "region_id": "test-region-na",
+      "region_id": "test-region-na123",
       "provider_id": "manual",
       "data": {
         "id": "manual-fulfillment"
@@ -93,7 +93,7 @@
     },
     {
       "name": "FakeEx Return",
-      "region_id": "test-region-na",
+      "region_id": "test-region-na123",
       "provider_id": "manual",
       "data": {
         "id": "manual-fulfillment"
@@ -104,7 +104,7 @@
     },
     {
       "name": "I want to return it myself",
-      "region_id": "test-region-na",
+      "region_id": "test-region-na123",
       "provider_id": "manual",
       "data": {
         "id": "manual-fulfillment"
@@ -116,753 +116,286 @@
   ],
   "products": [
     {
-      "title": "Medusa T-Shirt",
+      "id": "prod_01GMBH4GHPD3YTGZJ6Q8TZAFC0",
+      "created_at": "2022-12-15T18:35:50.697Z",
+      "updated_at": "2022-12-15T18:35:50.697Z",
+      "deleted_at": null,
+      "title": "ADVULQ-20-5-A-P-A Kompaktzylinder",
       "subtitle": null,
-      "description": "Reimagine the feeling of a classic T-shirt. With our cotton T-shirts, everyday essentials no longer have to be ordinary.",
-      "handle": "t-shirt",
+      "description": "Kompaktzylinder ADVULQ-20-5-A-P-A für Positionserkennung. Verdrehgesichert durch quadratische Kolbenstange. Hub=5 mm, Kolben-Durchmesser=20 mm, Dämpfung=P: elastische Dämpfungsringe/-platten beidseitig, Einbaulage=beliebig, Funktionsweise=doppeltwirkend",
+      "handle": "advulq-20-5-a-p-a-kompaktzylinder-4052568120252",
       "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-back.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-white-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-white-back.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["S", "M", "L", "XL"]
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP152F.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 1810,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "DE",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP152F.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00156772.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=156772&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/156772/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          }
+        ],
+        "manufacturer": {
+          "": "ADVULQ-20-5-A-P-A",
+          "name": "Festo Vertrieb GmbH & Co. KG"
         },
-        {
-          "title": "Color",
-          "values": ["Black", "White"]
-        }
-      ],
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "21",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": [
+          [
+            {
+              "name": "Hub",
+              "unit": "mm",
+              "value": "5"
+            },
+            {
+              "name": "Kolben-Durchmesser",
+              "unit": "",
+              "value": "20 mm"
+            },
+            {
+              "name": "Dämpfung",
+              "unit": "",
+              "value": "P: elastische Dämpfungsringe/-platten beidseitig"
+            },
+            {
+              "name": "Einbaulage",
+              "unit": "",
+              "value": "beliebig"
+            },
+            {
+              "name": "Funktionsweise",
+              "unit": "",
+              "value": "doppeltwirkend"
+            },
+            {
+              "name": "Kolbenstangenende",
+              "unit": "",
+              "value": "Außengewinde"
+            },
+            {
+              "name": "Konstruktiver Aufbau",
+              "unit": "",
+              "value": "['Kolben', 'Kolbenstange']"
+            },
+            {
+              "name": "Positionserkennung",
+              "unit": "",
+              "value": "für Näherungsschalter"
+            },
+            {
+              "name": "Varianten",
+              "unit": "",
+              "value": "einseitige Kolbenstange"
+            },
+            {
+              "name": "Verdrehsicherung/Führung",
+              "unit": "",
+              "value": "quadratische Kolbenstange"
+            },
+            {
+              "name": "Betriebsdruck",
+              "unit": "bar",
+              "value": "['1', '10']"
+            },
+            {
+              "name": "Betriebsmedium",
+              "unit": "",
+              "value": "Druckluft nach ISO 8573-1:2010 [7:4:4]"
+            },
+            {
+              "name": "Hinweis zum Betriebs- und Steuermedium",
+              "unit": "",
+              "value": "Geölter Betrieb möglich (im weiteren Betrieb erforderlich)"
+            },
+            {
+              "name": "Korrosionsbeständigkeitsklasse KBK",
+              "unit": "",
+              "value": "2 - mäßige Korrosionsbeanspruchung"
+            },
+            {
+              "name": "Umgebungstemperatur",
+              "unit": "°C",
+              "value": "['-20', '80']"
+            },
+            {
+              "name": "Aufprallenergie in den Endlagen",
+              "unit": "J",
+              "value": "0.14"
+            },
+            {
+              "name": "Theoretische Kraft bei 0,6 MPa (6 bar, 87 psi), Rücklauf",
+              "unit": "N",
+              "value": "141"
+            },
+            {
+              "name": "Theoretische Kraft bei 0,6 MPa (6 bar, 87 psi), Vorlauf",
+              "unit": "N",
+              "value": "188"
+            },
+            {
+              "name": "Bewegte Masse bei 0 mm Hub",
+              "unit": "g",
+              "value": "20"
+            },
+            {
+              "name": "Zuschlag bewegte Masse pro 10 mm Hub",
+              "unit": "g",
+              "value": "6"
+            },
+            {
+              "name": "Grundgewicht bei 0 mm Hub",
+              "unit": "g",
+              "value": "149"
+            },
+            {
+              "name": "Gewichtszuschlag pro 10 mm Hub",
+              "unit": "g",
+              "value": "23"
+            },
+            {
+              "name": "Befestigungsart",
+              "unit": "",
+              "value": "['mit Durchgangsbohrung', 'mit Zubehör', 'wahlweise:']"
+            },
+            {
+              "name": "Pneumatischer Anschluss",
+              "unit": "",
+              "value": "M5"
+            },
+            {
+              "name": "Werkstoff Bundschraube",
+              "unit": "",
+              "value": "Stahl verzinkt"
+            },
+            {
+              "name": "Werkstoff Deckel",
+              "unit": "",
+              "value": "Aluminium-Knetlegierung"
+            },
+            {
+              "name": "Werkstoff Dynamische Dichtungen",
+              "unit": "",
+              "value": "['NBR', 'TPE-U(PU)']"
+            },
+            {
+              "name": "Werkstoff Kolbenstange",
+              "unit": "",
+              "value": "hochlegierter Stahl rostfrei"
+            },
+            {
+              "name": "Werkstoff Zylinderrohr",
+              "unit": "",
+              "value": "Aluminium-Knetlegierung"
+            }
+          ]
+        ]
+      },
       "variants": [
         {
-          "title": "S / Black",
+          "id": "variant_01GMBH4GJSQA3M4ND66D14BMAJ",
+          "created_at": "2022-12-15T18:35:50.697Z",
+          "updated_at": "2022-12-15T18:35:50.697Z",
+          "deleted_at": null,
+          "title": "ADVULQ-20-5-A-P-A Kompaktzylinder",
+          "product_id": "prod_01GMBH4GHPD3YTGZJ6Q8TZAFC0",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 1810,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
           "prices": [
             {
+              "id": "ma_01GMBH4GK0A31QPVX7QM6D75MT",
+              "created_at": "2022-12-15T18:35:50.697Z",
+              "updated_at": "2022-12-15T18:35:50.697Z",
+              "deleted_at": null,
               "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
+              "amount": 13781,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBH4GJSQA3M4ND66D14BMAJ",
+              "region_id": null,
+              "price_list": null
             }
           ],
-          "options": [
-            {
-              "value": "S"
-            },
-            {
-              "value": "Black"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "S / White",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            },
-            {
-              "value": "White"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M / Black",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            },
-            {
-              "value": "Black"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M / White",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            },
-            {
-              "value": "White"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L / Black",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            },
-            {
-              "value": "Black"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L / White",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            },
-            {
-              "value": "White"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL / Black",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            },
-            {
-              "value": "Black"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL / White",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            },
-            {
-              "value": "White"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
         }
-      ]
-    },
-    {
-      "title": "Medusa Sweatshirt",
-      "subtitle": null,
-      "description": "Reimagine the feeling of a classic sweatshirt. With our cotton sweatshirt, everyday essentials no longer have to be ordinary.",
-      "handle": "sweatshirt",
-      "is_giftcard": false,
-      "weight": 400,
+      ],
       "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatshirt-vintage-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatshirt-vintage-back.png"
-      ],
-      "options": [
         {
-          "title": "Size",
-          "values": ["S", "M", "L", "XL"]
+          "id": "img_01GMBH4A3978RMA1CFZB9YXHCT",
+          "created_at": "2022-12-15T18:35:44.088Z",
+          "updated_at": "2022-12-15T18:35:44.088Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP152F.jpg",
+          "metadata": null
         }
       ],
-      "variants": [
-        {
-          "title": "S",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
-    },
-    {
-      "title": "Medusa Sweatpants",
-      "subtitle": null,
-      "description": "Reimagine the feeling of classic sweatpants. With our cotton sweatpants, everyday essentials no longer have to be ordinary.",
-      "handle": "sweatpants",
-      "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatpants-gray-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatpants-gray-back.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["S", "M", "L", "XL"]
-        }
-      ],
-      "variants": [
-        {
-          "title": "S",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
-    },
-    {
-      "title": "Medusa Shorts",
-      "subtitle": null,
-      "description": "Reimagine the feeling of classic shorts. With our cotton shorts, everyday essentials no longer have to be ordinary.",
-      "handle": "shorts",
-      "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/shorts-vintage-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/shorts-vintage-back.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["S", "M", "L", "XL"]
-        }
-      ],
-      "variants": [
-        {
-          "title": "S",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2500
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2850
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2500
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2850
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2500
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2850
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2500
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2850
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
-    },
-    {
-      "title": "Medusa Hoodie",
-      "subtitle": null,
-      "description": "Reimagine the feeling of a classic hoodie. With our cotton hoodie, everyday essentials no longer have to be ordinary.",
-      "handle": "hoodie",
-      "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/black_hoodie_front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/black_hoodie_back.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["S", "M", "L", "XL"]
-        }
-      ],
-      "variants": [
-        {
-          "title": "S",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
-    },
-    {
-      "title": "Medusa Longsleeve",
-      "subtitle": null,
-      "description": "Reimagine the feeling of a classic longsleeve. With our cotton longsleeve, everyday essentials no longer have to be ordinary.",
-      "handle": "longsleeve",
-      "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/ls-black-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/ls-black-back.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["S", "M", "L", "XL"]
-        }
-      ],
-      "variants": [
-        {
-          "title": "S",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
-    },
-    {
-      "title": "Medusa Coffee Mug",
-      "subtitle": null,
-      "description": "Every programmer's best friend.",
-      "handle": "coffee-mug",
-      "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/coffee-mug.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["One Size"]
-        }
-      ],
-      "variants": [
-        {
-          "title": "One Size",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1000
-            },
-            {
-              "currency_code": "usd",
-              "amount": 1200
-            }
-          ],
-          "options": [
-            {
-              "value": "One Size"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
     }
   ]
 }

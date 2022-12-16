@@ -1,155 +1,49 @@
-<p align="center">
-  <a href="https://www.medusa-commerce.com">
-    <img alt="Medusa" src="https://i.imgur.com/USubGVY.png" width="100" />
-  </a>
-</p>
-<h1 align="center">
-  Medusa Starter Default
-</h1>
-<p align="center">
-This repo provides the skeleton to get you started with using <a href="https://github.com/medusajs/medusa">Medusa</a>. Follow the steps below to get ready.
-</p>
-<p align="center">
-  <a href="https://github.com/medusajs/medusa/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Medusa is released under the MIT license." />
-  </a>
-  <a href="https://github.com/medusajs/medusa/blob/master/CONTRIBUTING.md">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
-  </a>
-  <a href="https://discord.gg/xpCwq3Kfn8">
-    <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
-  </a>
-  <a href="https://twitter.com/intent/follow?screen_name=medusajs">
-    <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@medusajs" alt="Follow @medusajs" />
-  </a>
-  <p align="center">
-    <a href="https://heroku.com/deploy?template=https://github.com/medusajs/medusa-starter-default/tree/feat/deploy-heroku">
-      <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-    </a>
-  </p>
-</p>
+# Set up local database
 
-## Prerequisites
+## 1. Run postgres in a docker container locally
 
-This starter has minimal prerequisites and most of these will usually already be installed on your computer.
+Execute:
 
-- [Install Node.js](https://nodejs.org/en/download/)
-- [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [Install SQLite](https://www.sqlite.org/download.html)
+`docker run -d --name flixpart-postgres -v flixpart_dbdata:/var/lib/postgresql/data -p 54320:5432 -e POSTGRES_PASSWORD=local postgres`
 
-## Setting up your store
+This does the following
 
-- Install the Medusa CLI
-  ```
-  npm install -g @medusajs/medusa
-  yarn global add @medusajs/medusa
-  ```
-- Create a new Medusa project
-  ```
-  medusa new my-medusa-store
-  ```
-- Run your project
-  ```
-  cd my-medusa-store
-  medusa develop
-  ```
+1. Pull the docker image `postgres` if not available locally.
+2. Run the image with:
+   - the name `flixpart-postgres`
+   - mount a volume (`-v`).
+   - map the local port 54320 to the container port at 5432
+   - parse `local` as password to the container. This will be used by postgres.
 
-Your local Medusa server is now running on port **9000**.
+## 2. Create a database in the just created locally running postgres instance
 
-### Seeding your Medusa store
+`docker exec -it flixpart-postgres psql -U postgres -c "create database flixpart_server_db"`
 
----
+This does the following
 
-To seed your medusa store run the following command:
+1. Execute a command into the postgres container we executed and started in the step above.
+2. Run the command `CREATE DATABASE` to create our local database in the postgres container
 
-```
-medusa seed -f ./data/seed.json
+## 3. Seed the postgres
+
+Run `npm run seed`to load the data from `/data/seed.json` into your local postgres database for local development.
+
+**!! If you run into an issue of duplicate entries (because you ran seed before, please check point 5. below) !!**
+
+## 4. Start the local server
+
+The local server is configured to look for a production connection string of postgres. Locally, this is not provided, hence it will use the provided local string:
+
+```const DATABASE_URL = process.env.DATABASE_URL ||
+  "postgres://postgres:local@localhost:54320/flixpart_server_db";
 ```
 
-This command seeds your database with some sample data to get you started, including a store, an administrator account, a region and a product with variants. What the data looks like precisely you can see in the `./data/seed.json` file.
+## 5. Repopulating the database with a fresh npm run seed
 
-## Setting up your store with Docker
+If you run into this error...
+`driverError: error: duplicate key value violates unique constraint `
+... it means that postgres already holds the data you want to upload. You need to delete the current tables by running the following command:
 
-- Install the Medusa CLI
-  ```
-  npm install -g @medusajs/medusa-cli
-  ```
-- Create a new Medusa project
-  ```
-  medusa new my-medusa-store
-  ```
-- Update project config in `medusa-config.js`:
+`docker exec -it flixpart-postgres psql -U postgres -c "DROP DATABASE IF EXISTS flixpart_server_db; CREATE DATABASE flixpart_server_db"`
 
-  ```
-  module.exports = {
-    projectConfig: {
-      redis_url: REDIS_URL,
-      database_url: DATABASE_URL, //postgres connectionstring
-      database_type: "postgres",
-      store_cors: STORE_CORS,
-      admin_cors: ADMIN_CORS,
-    },
-    plugins,
-  };
-  ```
-
-- Run your project
-
-  When running your project the first time `docker compose` should be run with the `build` flag to build your container locally:
-
-  ```
-  docker-compose up --build
-  ```
-
-  When running your project subsequent times you can run docker compose with no flags to spin up your local environment in seconds:
-
-  ```
-  docker-compose up
-  ```
-
-Your local Medusa server is now running on port **9000**.
-
-### Seeding your Medusa store with Docker
-
----
-
-To add seed data to your medusa store running with Docker, run this command in a seperate terminal:
-
-```
-docker exec medusa-server medusa seed -f ./data/seed.json
-```
-
-This will execute the previously described seed script in the running `medusa-server` Docker container.
-
-## Try it out
-
-```
-curl -X GET localhost:9000/store/products | python -m json.tool
-```
-
-After the seed script has run you will have the following things in you database:
-
-- a User with the email: admin@medusa-test.com and password: supersecret
-- a Region called Default Region with the countries GB, DE, DK, SE, FR, ES, IT
-- a Shipping Option called Standard Shipping which costs 10 EUR
-- a Product called Cool Test Product with 4 Product Variants that all cost 19.50 EUR
-
-Visit [docs.medusa-commerce.com](https://docs.medusa-commerce.com) for further guides.
-
-<p>
-  <a href="https://www.medusa-commerce.com">
-    Website
-  </a> 
-  |
-  <a href="https://medusajs.notion.site/medusajs/Medusa-Home-3485f8605d834a07949b17d1a9f7eafd">
-    Notion Home
-  </a>
-  |
-  <a href="https://twitter.com/intent/follow?screen_name=medusajs">
-    Twitter
-  </a>
-  |
-  <a href="https://docs.medusa-commerce.com">
-    Docs
-  </a>
-</p>
+**YOU NEED TO STOP THE SERVER BEFORE YOU EXECUTE ABOVE COMMAND**

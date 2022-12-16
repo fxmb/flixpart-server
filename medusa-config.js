@@ -37,7 +37,7 @@ const DB_DATABASE = process.env.DB_DATABASE;
 
 const DATABASE_URL =
   process.env.DATABASE_URL ||
-  `postgres://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_DATABASE}`;
+  "postgres://postgres:local@localhost:54320/flixpart_server_db";
 
 // Medusa uses Redis, so this needs configuration as well
 const REDIS_URL = process.env.REDIS_URL;
@@ -57,17 +57,24 @@ const plugins = [
       webhook_secret: STRIPE_WEBHOOK_SECRET,
     },
   },
+  {
+    resolve: `medusa-plugin-sendgrid`,
+    options: {
+      api_key:
+        "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",
+      from: "projectracinghorse@gmail.com",
+      order_placed_template: "d-ea7614ac1f164db080a03d6b503093ae",
+    },
+  },
 ];
 
 module.exports = {
   projectConfig: {
-    database_database: "./medusa-db.sql",
     database_type: "postgres",
-    database_extra: { ssl: { rejectUnauthorized: false } },
+    database_url: DATABASE_URL,
     store_cors: STORE_CORS,
     admin_cors: ADMIN_CORS,
     redis_url: REDIS_URL,
-    database_url: DATABASE_URL,
   },
   plugins,
 };
