@@ -44,6 +44,9 @@ If you run into this error...
 `driverError: error: duplicate key value violates unique constraint `
 ... it means that postgres already holds the data you want to upload. You need to delete the current tables by running the following command:
 
-`docker exec -it flixpart-postgres psql -U postgres -c "DROP DATABASE IF EXISTS flixpart_server_db; CREATE DATABASE flixpart_server_db"`
+`docker exec -it flixpart-postgres psql -U postgres -c "DROP DATABASE IF EXISTS flixpart_server_db"`
+
+`docker exec -it flixpart-postgres psql -U postgres -c "CREATE DATABASE flixpart_server_db"`
+
 
 **YOU NEED TO STOP THE SERVER BEFORE YOU EXECUTE ABOVE COMMAND**
