@@ -77,4 +77,7 @@ module.exports = {
     redis_url: REDIS_URL,
   },
   plugins,
+  featureFlags: {
+    tax_inclusive_pricing: true,
+  },
 };
