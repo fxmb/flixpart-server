@@ -42,8 +42,11 @@ The local server is configured to look for a production connection string of pos
 
 If you run into this error...
 `driverError: error: duplicate key value violates unique constraint `
-... it means that postgres already holds the data you want to upload. You need to delete the current tables by running the following command:
+... it means that postgres already holds the data you want to upload. You need to delete the current tables by running the following commands:
 
-`docker exec -it flixpart-postgres psql -U postgres -c "DROP DATABASE IF EXISTS flixpart_server_db; CREATE DATABASE flixpart_server_db"`
+1. `docker exec -it flixpart-postgres psql -U postgres -c "DROP DATABASE IF EXISTS flixpart_server_db"`
+
+2. `docker exec -it flixpart-postgres psql -U postgres -c "CREATE DATABASE flixpart_server_db"`
+
 
 **YOU NEED TO STOP THE SERVER BEFORE YOU EXECUTE ABOVE COMMAND**
