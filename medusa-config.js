@@ -97,6 +97,7 @@ module.exports = {
   projectConfig: {
     database_type: "postgres",
     database_url: DATABASE_URL,
+    database_extra: { ssl: { rejectUnauthorized: false } },
     store_cors: STORE_CORS,
     admin_cors: ADMIN_CORS,
     redis_url: REDIS_URL,
