@@ -66,6 +66,31 @@ const plugins = [
       order_placed_template: "d-ea7614ac1f164db080a03d6b503093ae",
     },
   },
+  {
+    resolve: `medusa-plugin-algolia`,
+    options: {
+      application_id: "C9W94GI98R",
+      admin_api_key: "0a37272d348a3640f2d6e36a4bf470ee",
+      settings: {
+        products: {
+          searchableAttributes: ["title", "description"],
+          attributesToRetrieve: [
+            "id",
+            "title",
+            "description",
+            "handle",
+            "thumbnail",
+            "variants",
+            "variant_sku",
+            "options",
+            "collection_title",
+            "collection_handle",
+            "images",
+          ],
+        },
+      },
+    },
+  },
 ];
 
 module.exports = {

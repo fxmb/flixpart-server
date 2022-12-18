@@ -396,6 +396,2712 @@
       "tags": [],
       "type": null,
       "collection": null
+    },
+    {
+      "id": "prod_01GMBGBESWK5Q6HJABNJSWS51A",
+      "created_at": "2022-12-15T18:22:09.717Z",
+      "updated_at": "2022-12-15T18:22:09.717Z",
+      "deleted_at": null,
+      "title": "ADVU-80-20-P-A Kompaktzylinder",
+      "subtitle": null,
+      "description": "Kompaktzylinder ADVU-80-20-P-A für Positionserkennung. Kolbenstangenende mit Innengewinde. Hub=20 mm, Kolben-Durchmesser=80 mm, Dämpfung=P: elastische Dämpfungsringe/-platten beidseitig, Einbaulage=beliebig, Funktionsweise=doppeltwirkend",
+      "handle": "advu-80-20-p-a-kompaktzylinder-4052568118341",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP132A.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 18550,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "HU",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP132A.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00156570.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=156570&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/156570/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          }
+        ],
+        "manufacturer": {
+          "": "ADVU-80-20-P-A",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "7",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": [
+          [
+            {
+              "name": "Hub",
+              "unit": "mm",
+              "value": "20"
+            },
+            {
+              "name": "Kolben-Durchmesser",
+              "unit": "",
+              "value": "80 mm"
+            },
+            {
+              "name": "Dämpfung",
+              "unit": "",
+              "value": "P: elastische Dämpfungsringe/-platten beidseitig"
+            },
+            {
+              "name": "Einbaulage",
+              "unit": "",
+              "value": "beliebig"
+            },
+            {
+              "name": "Funktionsweise",
+              "unit": "",
+              "value": "doppeltwirkend"
+            },
+            {
+              "name": "Kolbenstangenende",
+              "unit": "",
+              "value": "Innengewinde"
+            },
+            {
+              "name": "Konstruktiver Aufbau",
+              "unit": "",
+              "value": "['Kolben', 'Kolbenstange']"
+            },
+            {
+              "name": "Positionserkennung",
+              "unit": "",
+              "value": "für Näherungsschalter"
+            },
+            {
+              "name": "Varianten",
+              "unit": "",
+              "value": "einseitige Kolbenstange"
+            },
+            {
+              "name": "Betriebsdruck",
+              "unit": "bar",
+              "value": "['0.6', '10']"
+            },
+            {
+              "name": "Betriebsmedium",
+              "unit": "",
+              "value": "Druckluft nach ISO 8573-1:2010 [7:4:4]"
+            },
+            {
+              "name": "Hinweis zum Betriebs- und Steuermedium",
+              "unit": "",
+              "value": "Geölter Betrieb möglich (im weiteren Betrieb erforderlich)"
+            },
+            {
+              "name": "Korrosionsbeständigkeitsklasse KBK",
+              "unit": "",
+              "value": "2 - mäßige Korrosionsbeanspruchung"
+            },
+            {
+              "name": "Umgebungstemperatur",
+              "unit": "°C",
+              "value": "['-20', '80']"
+            },
+            {
+              "name": "Aufprallenergie in den Endlagen",
+              "unit": "J",
+              "value": "0.75"
+            },
+            {
+              "name": "Theoretische Kraft bei 0,6 MPa (6 bar, 87 psi), Rücklauf",
+              "unit": "N",
+              "value": "2827"
+            },
+            {
+              "name": "Theoretische Kraft bei 0,6 MPa (6 bar, 87 psi), Vorlauf",
+              "unit": "N",
+              "value": "3016"
+            },
+            {
+              "name": "Bewegte Masse bei 0 mm Hub",
+              "unit": "g",
+              "value": "307"
+            },
+            {
+              "name": "Zuschlag bewegte Masse pro 10 mm Hub",
+              "unit": "g",
+              "value": "25"
+            },
+            {
+              "name": "Grundgewicht bei 0 mm Hub",
+              "unit": "g",
+              "value": "1772"
+            },
+            {
+              "name": "Gewichtszuschlag pro 10 mm Hub",
+              "unit": "g",
+              "value": "168"
+            },
+            {
+              "name": "Befestigungsart",
+              "unit": "",
+              "value": "['mit Durchgangsbohrung', 'mit Zubehör', 'wahlweise:']"
+            },
+            {
+              "name": "Pneumatischer Anschluss",
+              "unit": "",
+              "value": "G1/8"
+            },
+            {
+              "name": "Werkstoff Bundschraube",
+              "unit": "",
+              "value": "Stahl verzinkt"
+            },
+            {
+              "name": "Werkstoff Deckel",
+              "unit": "",
+              "value": "Aluminium-Knetlegierung"
+            },
+            {
+              "name": "Werkstoff Dynamische Dichtungen",
+              "unit": "",
+              "value": "['NBR', 'TPE-U(PU)']"
+            },
+            {
+              "name": "Werkstoff Kolbenstange",
+              "unit": "",
+              "value": "hochlegierter Stahl"
+            },
+            {
+              "name": "Werkstoff Zylinderrohr",
+              "unit": "",
+              "value": "Aluminium-Knetlegierung"
+            }
+          ]
+        ]
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBGBETR86HBPAKHH48JDMQX",
+          "created_at": "2022-12-15T18:22:09.717Z",
+          "updated_at": "2022-12-15T18:22:09.717Z",
+          "deleted_at": null,
+          "title": "ADVU-80-20-P-A Kompaktzylinder",
+          "product_id": "prod_01GMBGBESWK5Q6HJABNJSWS51A",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 18550,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBGBEV0JHS93RFMQ26C6S9G",
+              "created_at": "2022-12-15T18:22:09.717Z",
+              "updated_at": "2022-12-15T18:22:09.717Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 35795,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBGBETR86HBPAKHH48JDMQX",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBGAVR7SMRPDJTTGNAXAKC1",
+          "created_at": "2022-12-15T18:21:50.206Z",
+          "updated_at": "2022-12-15T18:21:50.206Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP132A.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
+    },
+    {
+      "id": "prod_01GMBG9Z1108CBJ6FSJP799W8B",
+      "created_at": "2022-12-15T18:21:20.790Z",
+      "updated_at": "2022-12-15T18:21:20.790Z",
+      "deleted_at": null,
+      "title": "LRLL-M5-QS-4 Differenzdruck-Regelventil",
+      "subtitle": null,
+      "description": "Differenzdruck-Regelventil LRLL-M5-QS-4 ohne Manometer, mit Außengewinde und QS-Steckanschluss. Reglerfunktion=(* Differenzdruck konstant, * mit Rückstromverhalten), Pneumatischer Anschluss 1=M5, Pneumatischer Anschluss 2=QS-4, Befestigungsart=einschraubbar, Nenndurchfluss offen=30 l/min",
+      "handle": "lrll-m5-qs-4-differenzdruck-regelventil-4052568070755",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP1613.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 100,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "JP",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP1613.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00153498.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=153498&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/153498/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          }
+        ],
+        "manufacturer": {
+          "": "LRLL-M5-QS-4",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "5",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": [
+          [
+            {
+              "name": "Reglerfunktion",
+              "unit": "",
+              "value": "['Differenzdruck konstant', 'mit Rückstromverhalten']"
+            },
+            {
+              "name": "Pneumatischer Anschluss 1",
+              "unit": "",
+              "value": "M5"
+            },
+            {
+              "name": "Pneumatischer Anschluss 2",
+              "unit": "",
+              "value": "QS-4"
+            },
+            {
+              "name": "Befestigungsart",
+              "unit": "",
+              "value": "einschraubbar"
+            },
+            {
+              "name": "Nenndurchfluss offen",
+              "unit": "l/min",
+              "value": "30"
+            },
+            {
+              "name": "Druckregelbereich",
+              "unit": "bar",
+              "value": "['2', '6']"
+            },
+            {
+              "name": "Eingangsdruck 1 MPa",
+              "unit": "MPa",
+              "value": "['0', '0.9']"
+            },
+            {
+              "name": "Eingangsdruck 1",
+              "unit": "bar",
+              "value": "['0', '9']"
+            },
+            {
+              "name": "Eingangsdruck 1 psi",
+              "unit": "psi",
+              "value": "['0', '130.5']"
+            },
+            {
+              "name": "Umgebungstemperatur",
+              "unit": "°C",
+              "value": "['0', '60']"
+            },
+            {
+              "name": "Werkstoff Gehäuse",
+              "unit": "",
+              "value": "PBT-verstärkt"
+            },
+            {
+              "name": "Betriebsmedium",
+              "unit": "",
+              "value": "Druckluft nach ISO 8573-1:2010 [7:-:-]"
+            },
+            {
+              "name": "Betätigungssicherung",
+              "unit": "",
+              "value": "Rändelschraube mit Konterung"
+            },
+            {
+              "name": "Einbaulage",
+              "unit": "",
+              "value": "beliebig"
+            },
+            {
+              "name": "Konstruktiver Aufbau",
+              "unit": "",
+              "value": "['direktgesteuertes Kolbenregelventil', 'mit durchgehender Druckversorgung']"
+            },
+            {
+              "name": "Nenndurchfluss geschlossen",
+              "unit": "l/min",
+              "value": "30"
+            },
+            {
+              "name": "Hinweis zum Betriebs- und Steuermedium",
+              "unit": "",
+              "value": "Geölter Betrieb möglich (im weiteren Betrieb erforderlich)"
+            },
+            {
+              "name": "LABS-Konformität",
+              "unit": "",
+              "value": "VDMA24364-B1/B2-L"
+            },
+            {
+              "name": "Produktgewicht",
+              "unit": "g",
+              "value": "9"
+            },
+            {
+              "name": "Werkstoff Einschraubzapfen",
+              "unit": "",
+              "value": "Messing vernickelt"
+            },
+            {
+              "name": "Werkstoffhinweis",
+              "unit": "",
+              "value": "RoHS konform"
+            },
+            {
+              "name": "Werkstoff Gewindedichtung",
+              "unit": "",
+              "value": "PTFE"
+            }
+          ]
+        ]
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBG9Z23FDBPSXZYQ16JYRCQ",
+          "created_at": "2022-12-15T18:21:20.790Z",
+          "updated_at": "2022-12-15T18:21:20.790Z",
+          "deleted_at": null,
+          "title": "LRLL-M5-QS-4 Differenzdruck-Regelventil",
+          "product_id": "prod_01GMBG9Z1108CBJ6FSJP799W8B",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 100,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBG9Z293NJ1ZS9AQ18BKWZS",
+              "created_at": "2022-12-15T18:21:20.790Z",
+              "updated_at": "2022-12-15T18:21:20.790Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 2986,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBG9Z23FDBPSXZYQ16JYRCQ",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBG9Z0WE6RMX8J97QCHC6WB",
+          "created_at": "2022-12-15T18:21:20.790Z",
+          "updated_at": "2022-12-15T18:21:20.790Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP1613.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
+    },
+    {
+      "id": "prod_01GMBG9X0DDHKEXARXE7EX1TJW",
+      "created_at": "2022-12-15T18:21:18.712Z",
+      "updated_at": "2022-12-15T18:21:18.712Z",
+      "deleted_at": null,
+      "title": "QH-QS-6 Kugelhahn",
+      "subtitle": null,
+      "description": "Kugelhahn QH-QS-6 mit QS-Steckverbindung. Ventilfunktion=2/2 bistabil, Pneumatischer Anschluss 1=QS-6, Pneumatischer Anschluss 2=QS-6, Betätigungsart=manuell, Befestigungsart=Leitungseinbau",
+      "handle": "qh-qs-6-kugelhahn-4052568035006",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP2A26.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 140,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "JP",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP2A26.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00153484.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=153484&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/153484/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          }
+        ],
+        "manufacturer": {
+          "": "QH-QS-6",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "1",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": [
+          [
+            {
+              "name": "Ventilfunktion",
+              "unit": "",
+              "value": "2/2 bistabil"
+            },
+            {
+              "name": "Pneumatischer Anschluss 1",
+              "unit": "",
+              "value": "QS-6"
+            },
+            {
+              "name": "Pneumatischer Anschluss 2",
+              "unit": "",
+              "value": "QS-6"
+            },
+            {
+              "name": "Betätigungsart",
+              "unit": "",
+              "value": "manuell"
+            },
+            {
+              "name": "Befestigungsart",
+              "unit": "",
+              "value": "Leitungseinbau"
+            },
+            {
+              "name": "Normalnenndurchfluss",
+              "unit": "l/min",
+              "value": "533"
+            },
+            {
+              "name": "Nennweite",
+              "unit": "mm",
+              "value": "4"
+            },
+            {
+              "name": "Betriebsdruck Mpa",
+              "unit": "MPa",
+              "value": "['-0.1', '1']"
+            },
+            {
+              "name": "Betriebsdruck",
+              "unit": "bar",
+              "value": "['-1', '10']"
+            },
+            {
+              "name": "Umgebungstemperatur",
+              "unit": "°C",
+              "value": "['0', '60']"
+            },
+            {
+              "name": "Betriebsmedium",
+              "unit": "",
+              "value": "Druckluft nach ISO 8573-1:2010 [7:-:-]"
+            },
+            {
+              "name": "Dichtprinzip",
+              "unit": "",
+              "value": "weich"
+            },
+            {
+              "name": "Konstruktiver Aufbau",
+              "unit": "",
+              "value": "Kugelhahn"
+            },
+            {
+              "name": "Hinweis zum Betriebs- und Steuermedium",
+              "unit": "",
+              "value": "Geölter Betrieb möglich (im weiteren Betrieb erforderlich)"
+            },
+            {
+              "name": "LABS-Konformität",
+              "unit": "",
+              "value": "VDMA24364-B1/B2-L"
+            },
+            {
+              "name": "Produktgewicht",
+              "unit": "g",
+              "value": "12.5"
+            },
+            {
+              "name": "Werkstoffhinweis",
+              "unit": "",
+              "value": "RoHS konform"
+            }
+          ]
+        ]
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBG9X2BX46P5FK2X01B7V9A",
+          "created_at": "2022-12-15T18:21:18.712Z",
+          "updated_at": "2022-12-15T18:21:18.712Z",
+          "deleted_at": null,
+          "title": "QH-QS-6 Kugelhahn",
+          "product_id": "prod_01GMBG9X0DDHKEXARXE7EX1TJW",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 140,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBG9X2XCDJD3WST5A8B2D1D",
+              "created_at": "2022-12-15T18:21:18.712Z",
+              "updated_at": "2022-12-15T18:21:18.712Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 1436,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBG9X2BX46P5FK2X01B7V9A",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBG9WEV65XVEYTYQ3H8Q2AD",
+          "created_at": "2022-12-15T18:21:18.166Z",
+          "updated_at": "2022-12-15T18:21:18.166Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP2A26.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
+    },
+    {
+      "id": "prod_01GMBG85YTQ0E2X2T087DGHMFY",
+      "created_at": "2022-12-15T18:20:22.350Z",
+      "updated_at": "2022-12-15T18:20:22.350Z",
+      "deleted_at": null,
+      "title": "QSML-3H L-Steckverbindung",
+      "subtitle": null,
+      "description": "L-Steckverbindung QSML-3H mit Steckhülse. Baugröße=Mini, Nennweite=1,2 mm, Einbaulage=beliebig, Gebindegröße=10, Konstruktiver Aufbau=Push-Pull-Prinzip",
+      "handle": "qsml-3h-l-steckverbindung-4052568034078",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP22E9.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 20,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "JP",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP22E9.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00153346.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=153346&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/153346/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          }
+        ],
+        "manufacturer": {
+          "": "QSML-3H",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "1",
+          "no_cu_per_ou": "1",
+          "quantity_min": "10",
+          "price_quantity": "1",
+          "quantity_interval": "10"
+        },
+        "product_features": [
+          [
+            {
+              "name": "Baugröße",
+              "unit": "",
+              "value": "Mini"
+            },
+            {
+              "name": "Nennweite",
+              "unit": "mm",
+              "value": "1.2"
+            },
+            {
+              "name": "Einbaulage",
+              "unit": "",
+              "value": "beliebig"
+            },
+            {
+              "name": "Gebindegröße",
+              "unit": "",
+              "value": "10"
+            },
+            {
+              "name": "Konstruktiver Aufbau",
+              "unit": "",
+              "value": "Push-Pull-Prinzip"
+            },
+            {
+              "name": "Betriebsdruck kompletter Temperaturbereich",
+              "unit": "bar",
+              "value": "['-0.95', '6']"
+            },
+            {
+              "name": "Temperaturabhängiger Betriebsdruck",
+              "unit": "bar",
+              "value": "['-0.95', '14']"
+            },
+            {
+              "name": "Maritime Klassifizierung",
+              "unit": "",
+              "value": "siehe Zertifikat"
+            },
+            {
+              "name": "Betriebsmedium",
+              "unit": "",
+              "value": "Druckluft nach ISO 8573-1:2010 [7:-:-]"
+            },
+            {
+              "name": "Hinweis zum Betriebs- und Steuermedium",
+              "unit": "",
+              "value": "Geölter Betrieb möglich"
+            },
+            {
+              "name": "Korrosionsbeständigkeitsklasse KBK",
+              "unit": "",
+              "value": "1 - niedrige Korrosionsbeanspruchung"
+            },
+            {
+              "name": "Umgebungstemperatur",
+              "unit": "°C",
+              "value": "['-10', '80']"
+            },
+            {
+              "name": "Produktgewicht",
+              "unit": "g",
+              "value": "1.7"
+            },
+            {
+              "name": "Pneumatischer Anschluss 1",
+              "unit": "",
+              "value": "Steckhülse QS-3"
+            },
+            {
+              "name": "Pneumatischer Anschluss 2",
+              "unit": "",
+              "value": "für Schlauch Außendurchmesser 3 mm"
+            },
+            {
+              "name": "Farbe Lösering",
+              "unit": "",
+              "value": "blau"
+            },
+            {
+              "name": "Werkstoffhinweis",
+              "unit": "",
+              "value": "RoHS konform"
+            },
+            {
+              "name": "Werkstoff Gehäuse",
+              "unit": "",
+              "value": "PBT"
+            },
+            {
+              "name": "Werkstoff Lösering",
+              "unit": "",
+              "value": "POM"
+            },
+            {
+              "name": "Werkstoff Schlauchdichtung",
+              "unit": "",
+              "value": "NBR"
+            },
+            {
+              "name": "Werkstoff Schlauchklemmsegment",
+              "unit": "",
+              "value": "hochlegierter Stahl rostfrei"
+            }
+          ]
+        ]
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBG85ZMA7VNCNH27AKCMA0N",
+          "created_at": "2022-12-15T18:20:22.350Z",
+          "updated_at": "2022-12-15T18:20:22.350Z",
+          "deleted_at": null,
+          "title": "QSML-3H L-Steckverbindung",
+          "product_id": "prod_01GMBG85YTQ0E2X2T087DGHMFY",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 20,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBG85ZTDD796S1G619PFDSQ",
+              "created_at": "2022-12-15T18:20:22.350Z",
+              "updated_at": "2022-12-15T18:20:22.350Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 300,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBG85ZMA7VNCNH27AKCMA0N",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBG85YNB0E13ZY5NNBAFY14",
+          "created_at": "2022-12-15T18:20:22.350Z",
+          "updated_at": "2022-12-15T18:20:22.350Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP22E9.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
+    },
+    {
+      "id": "prod_01GMBG7CTHXKGGQ57NWR40XGSN",
+      "created_at": "2022-12-15T18:19:56.614Z",
+      "updated_at": "2022-12-15T18:19:56.614Z",
+      "deleted_at": null,
+      "title": "QSK-M5-6 Sperr-Steckverschraubung",
+      "subtitle": null,
+      "description": "Sperr-Steckverschraubung QSK-M5-6 Außengewinde mit Außensechskant. Baugröße=Standard, Nennweite=1,7 mm, Zulässiger Schlauchtyp=(* PAN-, * PAN-MF-, * PAN-R-, * PAN-V0-, * PEN-, * PFAN-, * PLN-, * PTFEN-, * PUN-, * PUN-CM-, * PUN-DUO-, * PUN-H-, * PUN-H-DUO-, * PUN-S-, * PUN-S-DUO-, * PUN-V0-), Schlaucheinstecktiefe=13,7 mm, Dichtungsart am Einschraubzapfen=Dichtring",
+      "handle": "qsk-m5-6-sperr-steckverschraubung-4052568033613",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP1BDE.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 120,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "JP",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP1BDE.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00153292.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=153292&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/153292/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          }
+        ],
+        "manufacturer": {
+          "": "QSK-M5-6",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "1",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": [
+          [
+            {
+              "name": "Baugröße",
+              "unit": "",
+              "value": "Standard"
+            },
+            {
+              "name": "Nennweite",
+              "unit": "mm",
+              "value": "1.7"
+            },
+            {
+              "name": "Zulässiger Schlauchtyp",
+              "unit": "",
+              "value": "['PAN-', 'PAN-MF-', 'PAN-R-', 'PAN-V0-', 'PEN-', 'PFAN-', 'PLN-', 'PTFEN-', 'PUN-', 'PUN-CM-', 'PUN-DUO-', 'PUN-H-', 'PUN-H-DUO-', 'PUN-S-', 'PUN-S-DUO-', 'PUN-V0-']"
+            },
+            {
+              "name": "Schlaucheinstecktiefe",
+              "unit": "mm",
+              "value": "13.7"
+            },
+            {
+              "name": "Dichtungsart am Einschraubzapfen",
+              "unit": "",
+              "value": "Dichtring"
+            },
+            {
+              "name": "Einbaulage",
+              "unit": "",
+              "value": "beliebig"
+            },
+            {
+              "name": "Gebindegröße",
+              "unit": "",
+              "value": "1"
+            },
+            {
+              "name": "Konstruktiver Aufbau",
+              "unit": "",
+              "value": "Push-Pull-Prinzip"
+            },
+            {
+              "name": "Betriebsdruck kompletter Temperaturbereich",
+              "unit": "bar",
+              "value": "['-0.95', '6']"
+            },
+            {
+              "name": "Temperaturabhängiger Betriebsdruck",
+              "unit": "bar",
+              "value": "['-0.95', '14']"
+            },
+            {
+              "name": "Maritime Klassifizierung",
+              "unit": "",
+              "value": "siehe Zertifikat"
+            },
+            {
+              "name": "Betriebsmedium",
+              "unit": "",
+              "value": "Druckluft nach ISO 8573-1:2010 [7:-:-]"
+            },
+            {
+              "name": "Hinweis zum Betriebs- und Steuermedium",
+              "unit": "",
+              "value": "Geölter Betrieb möglich"
+            },
+            {
+              "name": "Korrosionsbeständigkeitsklasse KBK",
+              "unit": "",
+              "value": "1 - niedrige Korrosionsbeanspruchung"
+            },
+            {
+              "name": "Umgebungstemperatur",
+              "unit": "°C",
+              "value": "['-10', '80']"
+            },
+            {
+              "name": "Nenn-Anziehdrehmoment",
+              "unit": "Nm",
+              "value": "1.33"
+            },
+            {
+              "name": "Toleranz zum Nenn-Anziehdrehmoment",
+              "unit": "",
+              "value": "± 20 %"
+            },
+            {
+              "name": "Produktgewicht",
+              "unit": "g",
+              "value": "12"
+            },
+            {
+              "name": "Pneumatischer Anschluss 1",
+              "unit": "",
+              "value": "Außengewinde M5"
+            },
+            {
+              "name": "Pneumatischer Anschluss 2",
+              "unit": "",
+              "value": "für Schlauch Außendurchmesser 6 mm"
+            },
+            {
+              "name": "Farbe Lösering",
+              "unit": "",
+              "value": "blau"
+            },
+            {
+              "name": "Werkstoffhinweis",
+              "unit": "",
+              "value": "RoHS konform"
+            },
+            {
+              "name": "Werkstoff Gehäuse",
+              "unit": "",
+              "value": "['Messing', 'vernickelt']"
+            },
+            {
+              "name": "Werkstoff Lösering",
+              "unit": "",
+              "value": "POM"
+            },
+            {
+              "name": "Werkstoff Schlauchdichtung",
+              "unit": "",
+              "value": "NBR"
+            },
+            {
+              "name": "Werkstoff Schlauchklemmsegment",
+              "unit": "",
+              "value": "hochlegierter Stahl rostfrei"
+            }
+          ]
+        ]
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBG7CVARY4GPW5XT0V6Q2GG",
+          "created_at": "2022-12-15T18:19:56.614Z",
+          "updated_at": "2022-12-15T18:19:56.614Z",
+          "deleted_at": null,
+          "title": "QSK-M5-6 Sperr-Steckverschraubung",
+          "product_id": "prod_01GMBG7CTHXKGGQ57NWR40XGSN",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 120,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBG7CVEX3AHXW0XS5NQFP66",
+              "created_at": "2022-12-15T18:19:56.614Z",
+              "updated_at": "2022-12-15T18:19:56.614Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 1086,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBG7CVARY4GPW5XT0V6Q2GG",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBG7CBD7WSPX07XJGEGB87B",
+          "created_at": "2022-12-15T18:19:56.136Z",
+          "updated_at": "2022-12-15T18:19:56.136Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP1BDE.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
+    },
+    {
+      "id": "prod_01GMBG6HG73QKT5DV7WM4FTSME",
+      "created_at": "2022-12-15T18:19:28.640Z",
+      "updated_at": "2022-12-15T18:19:28.640Z",
+      "deleted_at": null,
+      "title": "QSLV3-1/8-8 Mehrfachverteiler",
+      "subtitle": null,
+      "description": "Mehrfachverteiler QSLV3-1/8-8 360° ausrichtbar, 3fach. Baugröße=Standard, Nennweite=4,3 mm, Dichtungsart am Einschraubzapfen=Beschichtung, Einbaulage=beliebig, Konstruktiver Aufbau=Push-Pull-Prinzip",
+      "handle": "qslv3-1-8-8-mehrfachverteiler-4052568033071",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP0B1B.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 580,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "JP",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP0B1B.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00153224.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=153224&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/153224/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          }
+        ],
+        "manufacturer": {
+          "": "QSLV3-1/8-8",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "1",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": [
+          [
+            {
+              "name": "Baugröße",
+              "unit": "",
+              "value": "Standard"
+            },
+            {
+              "name": "Nennweite",
+              "unit": "mm",
+              "value": "4.3"
+            },
+            {
+              "name": "Dichtungsart am Einschraubzapfen",
+              "unit": "",
+              "value": "Beschichtung"
+            },
+            {
+              "name": "Einbaulage",
+              "unit": "",
+              "value": "beliebig"
+            },
+            {
+              "name": "Konstruktiver Aufbau",
+              "unit": "",
+              "value": "Push-Pull-Prinzip"
+            },
+            {
+              "name": "Gebindegröße",
+              "unit": "",
+              "value": "1"
+            },
+            {
+              "name": "Betriebsdruck kompletter Temperaturbereich",
+              "unit": "bar",
+              "value": "['-0.95', '6']"
+            },
+            {
+              "name": "Temperaturabhängiger Betriebsdruck",
+              "unit": "bar",
+              "value": "['-0.95', '14']"
+            },
+            {
+              "name": "Maritime Klassifizierung",
+              "unit": "",
+              "value": "siehe Zertifikat"
+            },
+            {
+              "name": "Betriebsmedium",
+              "unit": "",
+              "value": "['Druckluft nach ISO 8573-1:2010 [7:-:-]', 'Wasser gemäß Herstellererklärung unter www.festo.com']"
+            },
+            {
+              "name": "Hinweis zum Betriebs- und Steuermedium",
+              "unit": "",
+              "value": "Geölter Betrieb möglich"
+            },
+            {
+              "name": "Korrosionsbeständigkeitsklasse KBK",
+              "unit": "",
+              "value": "1 - niedrige Korrosionsbeanspruchung"
+            },
+            {
+              "name": "Umgebungstemperatur",
+              "unit": "°C",
+              "value": "['-10', '80']"
+            },
+            {
+              "name": "Produktgewicht",
+              "unit": "g",
+              "value": "56"
+            },
+            {
+              "name": "Anzahl Abgänge",
+              "unit": "",
+              "value": "3"
+            },
+            {
+              "name": "Anzahl Zuleitungen",
+              "unit": "",
+              "value": "1"
+            },
+            {
+              "name": "Pneumatischer Anschluss 1",
+              "unit": "",
+              "value": "Außengewinde R1/8"
+            },
+            {
+              "name": "Pneumatischer Anschluss 2",
+              "unit": "",
+              "value": "für Schlauch Außendurchmesser 8 mm"
+            },
+            {
+              "name": "Farbe Lösering",
+              "unit": "",
+              "value": "blau"
+            },
+            {
+              "name": "Werkstoffhinweis",
+              "unit": "",
+              "value": "RoHS konform"
+            },
+            {
+              "name": "Werkstoff Gehäuse",
+              "unit": "",
+              "value": "PBT"
+            },
+            {
+              "name": "Werkstoff Lösering",
+              "unit": "",
+              "value": "POM"
+            },
+            {
+              "name": "Werkstoff Schlauchdichtung",
+              "unit": "",
+              "value": "NBR"
+            },
+            {
+              "name": "Werkstoff Schlauchklemmsegment",
+              "unit": "",
+              "value": "hochlegierter Stahl rostfrei"
+            }
+          ]
+        ]
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBG6HGYQZQCT9CAY7ZFM84P",
+          "created_at": "2022-12-15T18:19:28.640Z",
+          "updated_at": "2022-12-15T18:19:28.640Z",
+          "deleted_at": null,
+          "title": "QSLV3-1/8-8 Mehrfachverteiler",
+          "product_id": "prod_01GMBG6HG73QKT5DV7WM4FTSME",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 580,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBG6HH2D24RSEABBB7PVNFW",
+              "created_at": "2022-12-15T18:19:28.640Z",
+              "updated_at": "2022-12-15T18:19:28.640Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 1711,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBG6HGYQZQCT9CAY7ZFM84P",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBG6G3EZNPJQAWM8H4CKKPR",
+          "created_at": "2022-12-15T18:19:27.207Z",
+          "updated_at": "2022-12-15T18:19:27.207Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP0B1B.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
+    },
+    {
+      "id": "prod_01GMBG42N5N9RXW2XYPA5H88AP",
+      "created_at": "2022-12-15T18:18:07.902Z",
+      "updated_at": "2022-12-15T18:18:07.902Z",
+      "deleted_at": null,
+      "title": "QSL-1/2-12 L-Steckverschraubung",
+      "subtitle": null,
+      "description": "L-Steckverschraubung QSL-1/2-12 360° ausrichtbar, Außengewinde mit Außensechskant. Baugröße=Standard, Nennweite=10,3 mm, Dichtungsart am Einschraubzapfen=Beschichtung, Einbaulage=beliebig, Gebindegröße=1",
+      "handle": "qsl-1-2-12-l-steckverschraubung-4052568031503",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP1724.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 620,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "JP",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP1724.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00153054.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=153054&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/153054/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          }
+        ],
+        "manufacturer": {
+          "": "QSL-1/2-12",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "1",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": [
+          [
+            {
+              "name": "Baugröße",
+              "unit": "",
+              "value": "Standard"
+            },
+            {
+              "name": "Nennweite",
+              "unit": "mm",
+              "value": "10.3"
+            },
+            {
+              "name": "Dichtungsart am Einschraubzapfen",
+              "unit": "",
+              "value": "Beschichtung"
+            },
+            {
+              "name": "Einbaulage",
+              "unit": "",
+              "value": "beliebig"
+            },
+            {
+              "name": "Gebindegröße",
+              "unit": "",
+              "value": "1"
+            },
+            {
+              "name": "Konstruktiver Aufbau",
+              "unit": "",
+              "value": "Push-Pull-Prinzip"
+            },
+            {
+              "name": "Betriebsdruck kompletter Temperaturbereich",
+              "unit": "bar",
+              "value": "['-0.95', '6']"
+            },
+            {
+              "name": "Temperaturabhängiger Betriebsdruck",
+              "unit": "bar",
+              "value": "['-0.95', '14']"
+            },
+            {
+              "name": "Maritime Klassifizierung",
+              "unit": "",
+              "value": "siehe Zertifikat"
+            },
+            {
+              "name": "Betriebsmedium",
+              "unit": "",
+              "value": "['Druckluft nach ISO 8573-1:2010 [7:-:-]', 'Wasser gemäß Herstellererklärung unter www.festo.com']"
+            },
+            {
+              "name": "Hinweis zum Betriebs- und Steuermedium",
+              "unit": "",
+              "value": "Geölter Betrieb möglich"
+            },
+            {
+              "name": "Korrosionsbeständigkeitsklasse KBK",
+              "unit": "",
+              "value": "1 - niedrige Korrosionsbeanspruchung"
+            },
+            {
+              "name": "Umgebungstemperatur",
+              "unit": "°C",
+              "value": "['-10', '80']"
+            },
+            {
+              "name": "Produktgewicht",
+              "unit": "g",
+              "value": "61"
+            },
+            {
+              "name": "Pneumatischer Anschluss 1",
+              "unit": "",
+              "value": "Außengewinde R1/2"
+            },
+            {
+              "name": "Pneumatischer Anschluss 2",
+              "unit": "",
+              "value": "für Schlauch Außendurchmesser 12 mm"
+            },
+            {
+              "name": "Farbe Lösering",
+              "unit": "",
+              "value": "blau"
+            },
+            {
+              "name": "Werkstoffhinweis",
+              "unit": "",
+              "value": "RoHS konform"
+            },
+            {
+              "name": "Werkstoff Gehäuse",
+              "unit": "",
+              "value": "PBT"
+            },
+            {
+              "name": "Werkstoff Lösering",
+              "unit": "",
+              "value": "POM"
+            },
+            {
+              "name": "Werkstoff Schlauchdichtung",
+              "unit": "",
+              "value": "NBR"
+            },
+            {
+              "name": "Werkstoff Schlauchklemmsegment",
+              "unit": "",
+              "value": "hochlegierter Stahl rostfrei"
+            }
+          ]
+        ]
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBG42NZHVHF66CEZW97P3QP",
+          "created_at": "2022-12-15T18:18:07.902Z",
+          "updated_at": "2022-12-15T18:18:07.902Z",
+          "deleted_at": null,
+          "title": "QSL-1/2-12 L-Steckverschraubung",
+          "product_id": "prod_01GMBG42N5N9RXW2XYPA5H88AP",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 620,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBG42P4Z8FWEF0DG2PXCQMT",
+              "created_at": "2022-12-15T18:18:07.902Z",
+              "updated_at": "2022-12-15T18:18:07.902Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 853,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBG42NZHVHF66CEZW97P3QP",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBFQG2J1842JP5D4XDMPQEK",
+          "created_at": "2022-12-15T18:11:15.660Z",
+          "updated_at": "2022-12-15T18:11:15.660Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP1724.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
+    },
+    {
+      "id": "prod_01GMBG36EPN73QV6JND7SNXQMZ",
+      "created_at": "2022-12-15T18:17:39.017Z",
+      "updated_at": "2022-12-15T18:17:39.017Z",
+      "deleted_at": null,
+      "title": "OFSW-32 Spezialöl",
+      "subtitle": null,
+      "description": "Spezialöl OFSW-32 für Wartungsgeräte.",
+      "handle": "ofsw-32-spezialol-4052568031084",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP0D4C.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 9420,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "DE",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP0D4C.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00152811.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=152811&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/152811/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          }
+        ],
+        "manufacturer": {
+          "": "OFSW-32",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "11",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": null
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBG36FSKBNCQE29V7VM257Z",
+          "created_at": "2022-12-15T18:17:39.017Z",
+          "updated_at": "2022-12-15T18:17:39.017Z",
+          "deleted_at": null,
+          "title": "OFSW-32 Spezialöl",
+          "product_id": "prod_01GMBG36EPN73QV6JND7SNXQMZ",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 9420,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBG36G03XABBTK1TK3JFPF1",
+              "created_at": "2022-12-15T18:17:39.017Z",
+              "updated_at": "2022-12-15T18:17:39.017Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 2650,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBG36FSKBNCQE29V7VM257Z",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBG36EFA68QAVF1NC58AVGQ",
+          "created_at": "2022-12-15T18:17:39.017Z",
+          "updated_at": "2022-12-15T18:17:39.017Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP0D4C.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
+    },
+    {
+      "id": "prod_01GMBG3AHE7968M09JN7BBN840",
+      "created_at": "2022-12-15T18:17:43.206Z",
+      "updated_at": "2022-12-15T18:17:43.206Z",
+      "deleted_at": null,
+      "title": "SMBU-3-B Befestigungsbausatz",
+      "subtitle": null,
+      "description": "Befestigungsbausatz SMBU-3-B für Profilzylinder DNGU, DNGUT, DNU. Baugröße=3",
+      "handle": "smbu-3-b-befestigungsbausatz-4052568070489",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP014D.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 880,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "BG",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP014D.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00152828.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/152828/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=152828&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          }
+        ],
+        "manufacturer": {
+          "": "SMBU-3-B",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "11",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": [
+          [
+            {
+              "name": "",
+              "unit": "",
+              "value": ""
+            },
+            {
+              "name": "",
+              "unit": "",
+              "value": ""
+            },
+            {
+              "name": "",
+              "unit": "",
+              "value": ""
+            },
+            {
+              "name": "",
+              "unit": "",
+              "value": ""
+            }
+          ]
+        ]
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBG3AJF70R1D1CMNCEEZAMJ",
+          "created_at": "2022-12-15T18:17:43.206Z",
+          "updated_at": "2022-12-15T18:17:43.206Z",
+          "deleted_at": null,
+          "title": "SMBU-3-B Befestigungsbausatz",
+          "product_id": "prod_01GMBG3AHE7968M09JN7BBN840",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 880,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBG3AJM98Y20F6AAGZJBEC3",
+              "created_at": "2022-12-15T18:17:43.206Z",
+              "updated_at": "2022-12-15T18:17:43.206Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 3769,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBG3AJF70R1D1CMNCEEZAMJ",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBFMXA59QQZQS979VWTHY78",
+          "created_at": "2022-12-15T18:09:50.911Z",
+          "updated_at": "2022-12-15T18:09:50.911Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP014D.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
+    },
+    {
+      "id": "prod_01GMBG2GF11SZY5SHY6CK4C130",
+      "created_at": "2022-12-15T18:17:16.503Z",
+      "updated_at": "2022-12-15T18:17:16.503Z",
+      "deleted_at": null,
+      "title": "PUN-8X1,25-SI Kunststoffschlauch",
+      "subtitle": null,
+      "description": "Kunststoffschlauch PUN-8X1,25-SI außenkalibriert, für QS-Steckanschlüsse, CN- und CK-Verschraubungen Polyurethan (bei der Herstellung von Lebensmitteln unzulässig). Außen-Durchmesser=8 mm, Durchflussrelevanter Biegeradius=37 mm, Innen-Durchmesser=5,7 mm, Min. Biegeradius=24 mm, Schlaucheigenschaften=schleppkettentauglich für Anwendungen mit höherer Taktzahl",
+      "handle": "pun-8x125-si-kunststoffschlauch-4052568030988",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP0C21.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 180,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "CZ",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP0C21.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00152587.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=152587&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/152587/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          }
+        ],
+        "manufacturer": {
+          "": "PUN-8X1,25-SI",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "MTR",
+          "content_unit": "MTR",
+          "deliver_time": "1",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": [
+          [
+            {
+              "name": "Außen-Durchmesser",
+              "unit": "mm",
+              "value": "8"
+            },
+            {
+              "name": "Durchflussrelevanter Biegeradius",
+              "unit": "mm",
+              "value": "37"
+            },
+            {
+              "name": "Innen-Durchmesser",
+              "unit": "mm",
+              "value": "5.7"
+            },
+            {
+              "name": "Min. Biegeradius",
+              "unit": "mm",
+              "value": "24"
+            },
+            {
+              "name": "Schlaucheigenschaften",
+              "unit": "",
+              "value": "schleppkettentauglich für Anwendungen mit höherer Taktzahl"
+            },
+            {
+              "name": "Prüfbedingungen Schlauch",
+              "unit": "",
+              "value": "Schleppkettentauglichkeit: >5 Mio Zyklen nach FN 942021"
+            },
+            {
+              "name": "Temperaturabhängiger Betriebsdruck",
+              "unit": "bar",
+              "value": "['-0.95', '10']"
+            },
+            {
+              "name": "Zulassung",
+              "unit": "",
+              "value": "TÜV"
+            },
+            {
+              "name": "Zertifikat ausstellende Stelle",
+              "unit": "",
+              "value": "B 013277 0506 00"
+            },
+            {
+              "name": "Betriebsmedium",
+              "unit": "",
+              "value": "Druckluft nach ISO 8573-1:2010 [7:-:-]"
+            },
+            {
+              "name": "Brandprüfung Werkstoff",
+              "unit": "",
+              "value": "UL94 HB"
+            },
+            {
+              "name": "LABS-Konformität",
+              "unit": "",
+              "value": "VDMA24364-B2-L"
+            },
+            {
+              "name": "Umgebungstemperatur",
+              "unit": "°C",
+              "value": "['-35', '60']"
+            },
+            {
+              "name": "Produktgewicht nach Länge",
+              "unit": "kg/m",
+              "value": "0.0302"
+            },
+            {
+              "name": "Pneumatischer Anschluss",
+              "unit": "",
+              "value": "['für Stecknippel Innendurchmesser 6 mm mit Mutter', 'für Stecknippel Innendurchmesser 6 mm', 'für Steckanschluss Außendurchmesser 8 mm']"
+            },
+            {
+              "name": "Farbe",
+              "unit": "",
+              "value": "silber"
+            },
+            {
+              "name": "Shore-Härte",
+              "unit": "",
+              "value": "D 52 +/-3"
+            },
+            {
+              "name": "Werkstoffhinweis",
+              "unit": "",
+              "value": "['Kupfer- und PTFE-frei', 'RoHS konform']"
+            },
+            {
+              "name": "Werkstoff Schlauch",
+              "unit": "",
+              "value": "TPE-U(PU)"
+            }
+          ]
+        ]
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBG2GFR4MYXV5DR9PX8VFFF",
+          "created_at": "2022-12-15T18:17:16.503Z",
+          "updated_at": "2022-12-15T18:17:16.503Z",
+          "deleted_at": null,
+          "title": "PUN-8X1,25-SI Kunststoffschlauch",
+          "product_id": "prod_01GMBG2GF11SZY5SHY6CK4C130",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 180,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBG2GFY51024BX0M5NEGV9M",
+              "created_at": "2022-12-15T18:17:16.503Z",
+              "updated_at": "2022-12-15T18:17:16.503Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 193,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBG2GFR4MYXV5DR9PX8VFFF",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBG2GEWVKTCXB8MHSR05ZRM",
+          "created_at": "2022-12-15T18:17:16.503Z",
+          "updated_at": "2022-12-15T18:17:16.503Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP0C21.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
+    },
+    {
+      "id": "prod_01GMBG23VCWK67SRH0WBBDJDG3",
+      "created_at": "2022-12-15T18:17:03.573Z",
+      "updated_at": "2022-12-15T18:17:03.573Z",
+      "deleted_at": null,
+      "title": "HZB-20 Fußbefestigung",
+      "subtitle": null,
+      "description": "Fußbefestigung HZB-20 für Zylinder DZH, breit. Baugröße=20, Einbaulage=beliebig, Korrosionsbeständigkeitsklasse KBK=2 - mäßige Korrosionsbeanspruchung, Produktgewicht=62 g, Werkstoff Befestigung=Aluminium-Knetlegierung",
+      "handle": "hzb-20-fussbefestigung-4052568070083",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP1220.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 610,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "DE",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP1220.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00151935.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/151935/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=151935&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          }
+        ],
+        "manufacturer": {
+          "": "HZB-20",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "1",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": [
+          [
+            {
+              "name": "Baugröße",
+              "unit": "",
+              "value": "20"
+            },
+            {
+              "name": "Einbaulage",
+              "unit": "",
+              "value": "beliebig"
+            },
+            {
+              "name": "Korrosionsbeständigkeitsklasse KBK",
+              "unit": "",
+              "value": "2 - mäßige Korrosionsbeanspruchung"
+            },
+            {
+              "name": "Produktgewicht",
+              "unit": "g",
+              "value": "62"
+            },
+            {
+              "name": "Werkstoff Befestigung",
+              "unit": "",
+              "value": "Aluminium-Knetlegierung"
+            },
+            {
+              "name": "Werkstoff Schrauben",
+              "unit": "",
+              "value": "['Stahl', 'verzinkt']"
+            }
+          ]
+        ]
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBG23X7WCRAEBHS48WE8MRQ",
+          "created_at": "2022-12-15T18:17:03.573Z",
+          "updated_at": "2022-12-15T18:17:03.573Z",
+          "deleted_at": null,
+          "title": "HZB-20 Fußbefestigung",
+          "product_id": "prod_01GMBG23VCWK67SRH0WBBDJDG3",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 610,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBG23XBE0YJ9H94ATQE54ZQ",
+              "created_at": "2022-12-15T18:17:03.573Z",
+              "updated_at": "2022-12-15T18:17:03.573Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 3144,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBG23X7WCRAEBHS48WE8MRQ",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBG235337XSB29E9GCKKXHE",
+          "created_at": "2022-12-15T18:17:02.873Z",
+          "updated_at": "2022-12-15T18:17:02.873Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP1220.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
+    },
+    {
+      "id": "prod_01GMBG0FVHXPMAPW7PT47F0FB4",
+      "created_at": "2022-12-15T18:16:10.335Z",
+      "updated_at": "2022-12-15T18:16:10.335Z",
+      "deleted_at": null,
+      "title": "GRLA-M5-PK-3-B Drossel-Rückschlagventil",
+      "subtitle": null,
+      "description": "Drossel-Rückschlagventil GRLA-M5-PK-3-B Ventilfunktion=Abluft-Drossel-Rückschlagfunktion, Pneumatischer Anschluss 1=PK-3, Pneumatischer Anschluss 2=M5, Einstellelement=Schlitzschraube, Befestigungsart=einschraubbar",
+      "handle": "grla-m5-pk-3-b-drossel-ruckschlagventil-4052568030537",
+      "is_giftcard": false,
+      "status": "published",
+      "thumbnail": "https://res.cloudinary.com/do43c888y/festo/22AP1928.jpg",
+      "profile_id": "sp_01GM68ZXHZPEHQPD3A7XHTRSNW",
+      "weight": 110,
+      "length": 0,
+      "height": 0,
+      "width": 0,
+      "hs_code": null,
+      "origin_country": "DE",
+      "mid_code": null,
+      "material": null,
+      "collection_id": null,
+      "type_id": null,
+      "discountable": true,
+      "external_id": null,
+      "metadata": {
+        "mime": [
+          {
+            "type": "image/jpeg",
+            "source": "22AP1928.jpg",
+            "purpose": "normal",
+            "description": "Produktbild"
+          },
+          {
+            "type": "text/html",
+            "source": "00151161.html",
+            "purpose": "data_sheet",
+            "description": "Datenblatt"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/catalogue/151161/",
+            "purpose": "others",
+            "description": "Pneumatic Katalog"
+          },
+          {
+            "type": "url",
+            "source": "https://www.festo.com/cat/de_de/xDKI.asp?PartNo=151161&writePDF=true&xR=DKI3WebDataSheetV1",
+            "purpose": "data_sheet",
+            "description": "PDF-Datasheet Link"
+          }
+        ],
+        "manufacturer": {
+          "": "GRLA-M5-PK-3-B",
+          "name": "Festo Vertrieb GmbH & Co. KG"
+        },
+        "order_details": {
+          "order_unit": "PCE",
+          "content_unit": "PCE",
+          "deliver_time": "5",
+          "no_cu_per_ou": "1",
+          "quantity_min": "1",
+          "price_quantity": "1",
+          "quantity_interval": "1"
+        },
+        "product_features": [
+          [
+            {
+              "name": "Ventilfunktion",
+              "unit": "",
+              "value": "Abluft-Drossel-Rückschlagfunktion"
+            },
+            {
+              "name": "Pneumatischer Anschluss 1",
+              "unit": "",
+              "value": "PK-3"
+            },
+            {
+              "name": "Pneumatischer Anschluss 2",
+              "unit": "",
+              "value": "M5"
+            },
+            {
+              "name": "Einstellelement",
+              "unit": "",
+              "value": "Schlitzschraube"
+            },
+            {
+              "name": "Befestigungsart",
+              "unit": "",
+              "value": "einschraubbar"
+            },
+            {
+              "name": "Normalnenndurchfluss in Drosselrichtung",
+              "unit": "l/min",
+              "value": "83"
+            },
+            {
+              "name": "Normalnenndurchfluss in Rückschlagrichtung",
+              "unit": "l/min",
+              "value": "['72', '83']"
+            },
+            {
+              "name": "Betriebsdruck",
+              "unit": "bar",
+              "value": "['0.2', '10']"
+            },
+            {
+              "name": "Umgebungstemperatur",
+              "unit": "°C",
+              "value": "['-10', '60']"
+            },
+            {
+              "name": "Maritime Klassifizierung",
+              "unit": "",
+              "value": "siehe Zertifikat"
+            },
+            {
+              "name": "Einbaulage",
+              "unit": "",
+              "value": "beliebig"
+            },
+            {
+              "name": "Normaldurchfluss in Drosselrichtung 0,6->0 MPa (6->0 bar, 87->0 psi)",
+              "unit": "l/min",
+              "value": "140"
+            },
+            {
+              "name": "Normaldurchfluss in Rückschlagrichtung 0,6->0 MPa (6->0 bar, 87->0 psi)",
+              "unit": "l/min",
+              "value": "['120', '140']"
+            },
+            {
+              "name": "Betriebsmedium",
+              "unit": "",
+              "value": "Druckluft nach ISO 8573-1:2010 [7:4:4]"
+            },
+            {
+              "name": "Hinweis zum Betriebs- und Steuermedium",
+              "unit": "",
+              "value": "Geölter Betrieb möglich (im weiteren Betrieb erforderlich)"
+            },
+            {
+              "name": "Mediumstemperatur",
+              "unit": "°C",
+              "value": "['-10', '60']"
+            },
+            {
+              "name": "Nennweite",
+              "unit": "mm",
+              "value": "2"
+            },
+            {
+              "name": "Max. Anziehdrehmoment",
+              "unit": "Nm",
+              "value": "1.5"
+            },
+            {
+              "name": "Produktgewicht",
+              "unit": "g",
+              "value": "10"
+            },
+            {
+              "name": "Werkstoff Einschraubzapfen",
+              "unit": "",
+              "value": "vernickelt"
+            },
+            {
+              "name": "Werkstoffhinweis",
+              "unit": "",
+              "value": "RoHS konform"
+            },
+            {
+              "name": "Werkstoff Dichtungen",
+              "unit": "",
+              "value": "NBR"
+            },
+            {
+              "name": "Werkstoff Regulierschraube",
+              "unit": "",
+              "value": "Messing"
+            },
+            {
+              "name": "Werkstoff Schwenkanschluss",
+              "unit": "",
+              "value": "Zink-Druckguss"
+            }
+          ]
+        ]
+      },
+      "variants": [
+        {
+          "id": "variant_01GMBG0FWBG53J0WESXQWVKJH9",
+          "created_at": "2022-12-15T18:16:10.335Z",
+          "updated_at": "2022-12-15T18:16:10.335Z",
+          "deleted_at": null,
+          "title": "GRLA-M5-PK-3-B Drossel-Rückschlagventil",
+          "product_id": "prod_01GMBG0FVHXPMAPW7PT47F0FB4",
+          "sku": null,
+          "barcode": null,
+          "ean": null,
+          "upc": null,
+          "inventory_quantity": 0,
+          "allow_backorder": true,
+          "manage_inventory": false,
+          "hs_code": null,
+          "origin_country": null,
+          "mid_code": null,
+          "material": null,
+          "weight": 110,
+          "length": 0,
+          "height": 0,
+          "width": 0,
+          "metadata": {
+            "tax": "0.19"
+          },
+          "prices": [
+            {
+              "id": "ma_01GMBG0FWF1RM8SF7X0H8CKAS2",
+              "created_at": "2022-12-15T18:16:10.335Z",
+              "updated_at": "2022-12-15T18:16:10.335Z",
+              "deleted_at": null,
+              "currency_code": "eur",
+              "amount": 2141,
+              "min_quantity": null,
+              "max_quantity": null,
+              "price_list_id": null,
+              "variant_id": "variant_01GMBG0FWBG53J0WESXQWVKJH9",
+              "region_id": null,
+              "price_list": null
+            }
+          ],
+          "options": [],
+          "original_price": null,
+          "calculated_price": null,
+          "original_price_incl_tax": null,
+          "calculated_price_incl_tax": null,
+          "original_tax": null,
+          "calculated_tax": null,
+          "tax_rates": null
+        }
+      ],
+      "images": [
+        {
+          "id": "img_01GMBG0FV5A6KS5KRKK9E15V71",
+          "created_at": "2022-12-15T18:16:10.335Z",
+          "updated_at": "2022-12-15T18:16:10.335Z",
+          "deleted_at": null,
+          "url": "https://res.cloudinary.com/do43c888y/festo/22AP1928.jpg",
+          "metadata": null
+        }
+      ],
+      "options": [],
+      "tags": [],
+      "type": null,
+      "collection": null
     }
   ]
 }
