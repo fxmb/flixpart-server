@@ -28,7 +28,7 @@ const ADMIN_CORS =
 // CORS to avoid issues when consuming Medusa from a client
 const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000";
 
-const DATABASE_EXTRA = {};
+let DATABASE_EXTRA = {};
 if (process.env.NODE_ENV === "production") {
   DATABASE_EXTRA = { ssl: { rejectUnauthorized: false } };
 }
@@ -59,15 +59,15 @@ const plugins = [
       webhook_secret: STRIPE_WEBHOOK_SECRET,
     },
   },
-  // {
-  //   resolve: `medusa-payment-paypal`,
-  //   options: {
-  //     sandbox: process.env.PAYPAL_SANDBOX,
-  //     client_id: process.env.PAYPAL_CLIENT_ID,
-  //     client_secret: process.env.PAYPAL_CLIENT_SECRET,
-  //     auth_webhook_id: process.env.PAYPAL_AUTH_WEBHOOK_ID,
-  //   },
-  // },
+  {
+    resolve: `medusa-payment-paypal`,
+    options: {
+      sandbox: process.env.PAYPAL_SANDBOX,
+      client_id: process.env.PAYPAL_CLIENT_ID,
+      client_secret: process.env.PAYPAL_CLIENT_SECRET,
+      auth_webhook_id: process.env.PAYPAL_AUTH_WEBHOOK_ID,
+    },
+  },
   {
     resolve: `medusa-plugin-sendgrid`,
     options: {
