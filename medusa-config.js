@@ -59,6 +59,15 @@ const plugins = [
       webhook_secret: STRIPE_WEBHOOK_SECRET,
     },
   },
+  // {
+  //   resolve: `medusa-payment-paypal`,
+  //   options: {
+  //     sandbox: process.env.PAYPAL_SANDBOX,
+  //     client_id: process.env.PAYPAL_CLIENT_ID,
+  //     client_secret: process.env.PAYPAL_CLIENT_SECRET,
+  //     auth_webhook_id: process.env.PAYPAL_AUTH_WEBHOOK_ID,
+  //   },
+  // },
   {
     resolve: `medusa-plugin-sendgrid`,
     options: {
