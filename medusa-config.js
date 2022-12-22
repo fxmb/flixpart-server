@@ -38,7 +38,7 @@ const DATABASE_URL =
   "postgres://postgres:local@localhost:54320/flixpart_server_db";
 
 // Medusa uses Redis, so this needs configuration as well
-const REDIS_URL = process.env.REDIS_URL || "http://localhost:6379";
+const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
 
 // Algolia
 const ALOGLIA_APP_ID = process.env.ALGOLIA_APP_ID;
