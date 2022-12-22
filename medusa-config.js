@@ -61,9 +61,9 @@ const plugins = [
     resolve: `medusa-plugin-sendgrid`,
     options: {
       api_key:
-        "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",
-      from: "projectracinghorse@gmail.com",
-      order_placed_template: "d-ea7614ac1f164db080a03d6b503093ae",
+        "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",
+      from: "team@flixpart.de",
+      order_placed: "d-d384ecbf77a74e3387395c30741ec643",
     },
   },
 ];
