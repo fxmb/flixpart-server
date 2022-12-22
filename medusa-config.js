@@ -71,10 +71,9 @@ const plugins = [
   {
     resolve: `medusa-plugin-sendgrid`,
     options: {
-      api_key:
-        "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",
-      from: "team@flixpart.de",
-      order_placed: "d-d384ecbf77a74e3387395c30741ec643",
+      api_key: process.env.SENDGRID_API_KEY,
+      from: process.env.SENDGRID_FROM,
+      order_placed: process.env.SENDGRID_ORDER_PLACED_ID,
     },
   },
   {
