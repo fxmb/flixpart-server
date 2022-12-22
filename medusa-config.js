@@ -28,12 +28,10 @@ const ADMIN_CORS =
 // CORS to avoid issues when consuming Medusa from a client
 const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000";
 
-// Database URL (here we use a local database called medusa-development)
-const DB_USERNAME = process.env.DB_USERNAME;
-const DB_PASSWORD = process.env.DB_PASSWORD;
-const DB_HOST = process.env.DB_HOST;
-const DB_PORT = process.env.DB_PORT;
-const DB_DATABASE = process.env.DB_DATABASE;
+let DATABASE_EXTRA = {};
+if (process.env.NODE_ENV === "production") {
+  DATABASE_EXTRA = { ssl: { rejectUnauthorized: false } };
+}
 
 const DATABASE_URL =
   process.env.DATABASE_URL ||
@@ -41,6 +39,10 @@ const DATABASE_URL =
 
 // Medusa uses Redis, so this needs configuration as well
 const REDIS_URL = process.env.REDIS_URL;
+
+// Algolia
+const ALOGLIA_APP_ID = process.env.ALGOLIA_APP_ID;
+const ALGOLIA_ADMIN_API_KEY = process.env.ALGOLIA_ADMIN_API_KEY;
 
 // Stripe keys
 const STRIPE_API_KEY = process.env.STRIPE_API_KEY || "";
@@ -58,6 +60,15 @@ const plugins = [
     },
   },
   {
+    resolve: `medusa-payment-paypal`,
+    options: {
+      sandbox: process.env.PAYPAL_SANDBOX,
+      client_id: process.env.PAYPAL_CLIENT_ID,
+      client_secret: process.env.PAYPAL_CLIENT_SECRET,
+      auth_webhook_id: process.env.PAYPAL_AUTH_WEBHOOK_ID,
+    },
+  },
+  {
     resolve: `medusa-plugin-sendgrid`,
     options: {
       api_key:
@@ -66,12 +77,38 @@ const plugins = [
       order_placed: "d-d384ecbf77a74e3387395c30741ec643",
     },
   },
+  {
+    resolve: `medusa-plugin-algolia`,
+    options: {
+      application_id: ALOGLIA_APP_ID,
+      admin_api_key: ALGOLIA_ADMIN_API_KEY,
+      settings: {
+        products: {
+          searchableAttributes: ["title", "description"],
+          attributesToRetrieve: [
+            "id",
+            "title",
+            "description",
+            "handle",
+            "thumbnail",
+            "variants",
+            "variant_sku",
+            "options",
+            "collection_title",
+            "collection_handle",
+            "images",
+          ],
+        },
+      },
+    },
+  },
 ];
 
 module.exports = {
   projectConfig: {
     database_type: "postgres",
     database_url: DATABASE_URL,
+    database_extra: DATABASE_EXTRA,
     store_cors: STORE_CORS,
     admin_cors: ADMIN_CORS,
     redis_url: REDIS_URL,
