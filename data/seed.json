@@ -14,7 +14,7 @@
       "name": "EU",
       "currency_code": "eur",
       "tax_rate": 0,
-      "payment_providers": ["manual"],
+      "payment_providers": ["manual", "stripe"],
       "fulfillment_providers": ["manual"],
       "countries": ["gb", "de", "dk", "se", "fr", "es", "it"]
     },
@@ -37,7 +37,8 @@
         "id": "manual-fulfillment"
       },
       "price_type": "flat_rate",
-      "amount": 1000
+      "amount": 1000,
+      "currency_code": "eur"
     },
     {
       "name": "PostFake Express",
@@ -47,7 +48,8 @@
         "id": "manual-fulfillment"
       },
       "price_type": "flat_rate",
-      "amount": 1500
+      "amount": 1500,
+      "currency_code": "eur"
     },
     {
       "name": "PostFake Return",
