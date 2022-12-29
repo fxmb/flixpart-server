@@ -3738,6 +3738,14 @@ medusa-core-utils@^1.1.31, medusa-core-utils@^1.1.32, medusa-core-utils@^1.1.36:
     joi "^17.3.0"
     joi-objectid "^3.0.1"
 
+medusa-core-utils@^1.1.37:
+  version "1.1.37"
+  resolved "https://registry.yarnpkg.com/medusa-core-utils/-/medusa-core-utils-1.1.37.tgz#52bee710fc10674d4a9bd71874aea7385eb482e8"
+  integrity sha512-FhtVqalSHRndKVe/wDvJUVMtarP26Y7/XEa6RGVDZoc+lpJDHYXqF+Cpqepne7yKKALIhLo+q67Csei6HF/c0A==
+  dependencies:
+    joi "^17.3.0"
+    joi-objectid "^3.0.1"
+
 medusa-fulfillment-manual@^1.1.31:
   version "1.1.31"
   resolved "https://registry.yarnpkg.com/medusa-fulfillment-manual/-/medusa-fulfillment-manual-1.1.31.tgz#343dad66efe222c011edccb5f0ead93cc71bd217"
@@ -3769,14 +3777,14 @@ medusa-payment-paypal@^1.2.6:
     express "^4.17.1"
     medusa-core-utils "^1.1.32"
 
-medusa-payment-stripe@^1.1.49:
-  version "1.1.49"
-  resolved "https://registry.yarnpkg.com/medusa-payment-stripe/-/medusa-payment-stripe-1.1.49.tgz#b33bc23dd0679532d99aa65162d45b86b55f7c55"
-  integrity sha512-w9f2zmqqlbO93d7DwG4qsMF+y7AGksKk0zQjbsglcoh5/3EOR3AteJjR4jhwxzZrnMhYtUlUWFkwPY4rQMJimQ==
+medusa-payment-stripe@^1.1.50:
+  version "1.1.50"
+  resolved "https://registry.yarnpkg.com/medusa-payment-stripe/-/medusa-payment-stripe-1.1.50.tgz#08c65ee3441b5c782e3ecae28f1504bca37707ad"
+  integrity sha512-BJueFlgFTHQMTGKDdK17FPr2Ebn9KrAC5llchpgTwW5VAFZGnEfYQFZapt6q7KsFCuZ5Z4gwYGPqncWXOGUxRg==
   dependencies:
     body-parser "^1.19.0"
     express "^4.17.1"
-    medusa-core-utils "^1.1.36"
+    medusa-core-utils "^1.1.37"
     stripe "^8.50.0"
 
 medusa-plugin-algolia@^0.2.5:
