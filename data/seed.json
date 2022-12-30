@@ -14,7 +14,7 @@
       "name": "EU",
       "currency_code": "eur",
       "tax_rate": 0,
-      "payment_providers": ["manual", "stripe"],
+      "payment_providers": ["manual", "stripe", "stripe-giropay"],
       "fulfillment_providers": ["manual"],
       "countries": ["gb", "de", "dk", "se", "fr", "es", "it"]
     },
