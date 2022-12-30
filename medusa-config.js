@@ -57,6 +57,7 @@ const plugins = [
     options: {
       api_key: STRIPE_API_KEY,
       webhook_secret: STRIPE_WEBHOOK_SECRET,
+      automatic_payment_methods: true,
     },
   },
   {
